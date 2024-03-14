@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main{
+    public static void main (String[]args){
+        Scanner sc=new Scanner(System.in);
+        int studentcgpa=sc.nextInt();
+        switch(studentcgpa){
+            case 10:
+                System.out.println("CGPA 10 you are oustanding");
+                break;
+            case 9:
+                System.out.println("CGPA 9 you are Excelling");
+                break;
+                
+            default:
+                System.out.println("CGPA 8 or less you are processing");
+                break;
+        }
+    }
+}
